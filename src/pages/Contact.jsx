@@ -112,19 +112,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      content: 'info@axlesolutions.com',
+      content: 'axlesolutionsinfo@gmail.com',
       link: 'mailto:info@axlesolutions.com',
     },
     {
       icon: Phone,
       title: 'Phone',
-      content: '+1 (234) 567-890',
-      link: 'tel:+1234567890',
+      content: '(+94) 71 25 29942',
+      link: 'tel:+94712529942',
     },
     {
       icon: MapPin,
       title: 'Address',
-      content: '123 Tech Street, Digital City, Innovation Hub, 12345',
+      content: '366/7 Saliya MW, Yanthampalawa, Kurunegala, Sri Lanka',
       link: null,
     },
   ];
@@ -365,11 +365,11 @@ const Contact = () => {
                 <div className="space-y-3">
                   <div className="flex justify-between">
                     <span className="font-semibold">Monday - Friday</span>
-                    <span>9:00 AM - 6:00 PM</span>
+                    <span>9:00 AM - 5:00 PM</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="font-semibold">Saturday</span>
-                    <span>10:00 AM - 4:00 PM</span>
+                    <span>9:00 AM - 12:30 PM</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="font-semibold">Sunday</span>
@@ -385,21 +385,21 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Map Section (Optional - Placeholder) */}
+      {/* Map Section (Embedded Google Map) */}
       <section className="py-20 bg-gray-50 dark:bg-dark-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="scroll-animate">
             <div className="card overflow-hidden">
-              <div className="bg-gray-300 dark:bg-dark-700 h-96 flex items-center justify-center">
-                <div className="text-center">
-                  <MapPin className="w-16 h-16 text-gray-500 dark:text-gray-400 mx-auto mb-4" />
-                  <p className="text-gray-600 dark:text-gray-400 text-lg">
-                    Map Integration Placeholder
-                  </p>
-                  <p className="text-gray-500 dark:text-gray-500 text-sm mt-2">
-                    123 Tech Street, Digital City, Innovation Hub, 12345
-                  </p>
-                </div>
+              {/* Responsive iframe wrapper: maintains 16:9 ratio */}
+              <div className="w-full" style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d247.23135968434454!2d80.34800091979064!3d7.498142255374775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slk!4v1762849457319!5m2!1sen!2slk"
+                  title="Axle Solutions Location"
+                  style={{ border: 0, position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
             </div>
           </div>

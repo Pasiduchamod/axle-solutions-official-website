@@ -36,19 +36,19 @@ const Services = () => {
 
   const services = [
     {
-      icon: GitBranch,
-      title: 'DevOps Consulting',
-      shortDescription: 'Transform your development workflow with expert DevOps practices and automation.',
-      longDescription: 'Our DevOps consulting services help you streamline your development and deployment processes. We implement CI/CD pipelines, automate infrastructure provisioning, and establish best practices for continuous delivery.',
+      icon: Smartphone,
+      title: 'Mobile App Development',
+      shortDescription: 'Create engaging mobile experiences for iOS and Android platforms.',
+      longDescription: 'We build native and cross-platform mobile applications that deliver exceptional user experiences. Our apps are performant, secure, and designed with your users in mind.',
       features: [
-        'CI/CD Pipeline Implementation',
-        'Infrastructure as Code (IaC)',
-        'Container Orchestration',
-        'Monitoring & Logging Setup',
-        'Security & Compliance',
-        'Performance Optimization',
+        'iOS & Android Development',
+        'Cross-Platform Solutions',
+        'UI/UX Design',
+        'API Integration',
+        'Push Notifications',
+        'App Store Deployment',
       ],
-      technologies: ['Jenkins', 'GitLab CI', 'Docker', 'Kubernetes', 'Terraform', 'Ansible'],
+      technologies: ['React Native', 'Flutter', 'Swift', 'Kotlin', 'Firebase', 'GraphQL'],
     },
     {
       icon: Code,
@@ -111,21 +111,6 @@ const Services = () => {
       technologies: ['OWASP', 'OAuth', 'JWT', 'SSL/TLS', 'WAF', 'SIEM'],
     },
     {
-      icon: Smartphone,
-      title: 'Mobile App Development',
-      shortDescription: 'Create engaging mobile experiences for iOS and Android platforms.',
-      longDescription: 'We build native and cross-platform mobile applications that deliver exceptional user experiences. Our apps are performant, secure, and designed with your users in mind.',
-      features: [
-        'iOS & Android Development',
-        'Cross-Platform Solutions',
-        'UI/UX Design',
-        'API Integration',
-        'Push Notifications',
-        'App Store Deployment',
-      ],
-      technologies: ['React Native', 'Flutter', 'Swift', 'Kotlin', 'Firebase', 'GraphQL'],
-    },
-    {
       icon: Database,
       title: 'Database Solutions',
       shortDescription: 'Design, optimize, and manage databases for peak performance and reliability.',
@@ -154,6 +139,21 @@ const Services = () => {
         'Best Practices Training',
       ],
       technologies: ['Architecture Patterns', 'Design Patterns', 'Agile/Scrum', 'DevOps', 'Microservices', 'Event-Driven'],
+    },
+    {
+      icon: GitBranch,
+      title: 'DevOps Consulting',
+      shortDescription: 'Transform your development workflow with expert DevOps practices and automation.',
+      longDescription: 'Our DevOps consulting services help you streamline your development and deployment processes. We implement CI/CD pipelines, automate infrastructure provisioning, and establish best practices for continuous delivery.',
+      features: [
+        'CI/CD Pipeline Implementation',
+        'Infrastructure as Code (IaC)',
+        'Container Orchestration',
+        'Monitoring & Logging Setup',
+        'Security & Compliance',
+        'Performance Optimization',
+      ],
+      technologies: ['Jenkins', 'GitLab CI', 'Docker', 'Kubernetes', 'Terraform', 'Ansible'],
     },
   ];
 
