@@ -13,7 +13,7 @@ const Footer = () => {
     { icon: Github, href: 'https://github.com', label: 'GitHub' },
     { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
     { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-    { icon: Mail, href: 'mailto:info@axlesolutions.com', label: 'Email' },
+    { icon: Mail, href: 'mailto:axlesolutionsinfo@gmail.com', label: 'Email' },
   ];
 
   const quickLinks = [
@@ -89,20 +89,27 @@ const Footer = () => {
                   href="mailto:info@axlesolutions.com"
                   className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-200"
                 >
-                  info@axlesolutions.com
+                  axlesolutionsinfo@gmail.com
                 </a>
               </li>
               <li>
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+94719092726"
                   className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-200"
                 >
-                  +1 (234) 567-890
+                  +(94) 71 9092726
+                </a>
+                <br />
+                <a
+                  href="tel:+94712529942"
+                  className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-200"
+                >
+                  +(94) 71 2529942
                 </a>
               </li>
               <li className="text-sm">
-                123 Tech Street, Digital City,<br />
-                Innovation Hub, 12345
+                366/7 Saliya MW, Yanthampalawa,<br />
+                Kurunegala, Sri Lanka
               </li>
             </ul>
           </div>

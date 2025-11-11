@@ -25,27 +25,27 @@ const About = () => {
 
   const founders = [
     {
-      name: 'John Smith',
-      role: 'Co-Founder & DevOps Engineer',
-      bio: 'John is a seasoned DevOps engineer with over 8 years of experience in cloud infrastructure, CI/CD pipelines, and automation. He specializes in AWS, Kubernetes, and Infrastructure as Code.',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
-      skills: ['AWS', 'Kubernetes', 'Docker', 'Terraform', 'Jenkins', 'Python'],
+      name: 'Anushka Praveen',
+      role: 'Co-Founder & Software Engineer',
+      bio: 'Anushka is a skilled Software Engineer with extensive experience in full-stack development and building scalable, high-performance applications. He specializes in React, Node.js, and microservices architecture, with strong expertise in cloud-native development. His focus lies in crafting efficient, maintainable, and user-centric software solutions that drive real-world impact.',
+      image: 'https://media.licdn.com/dms/image/v2/D5603AQGyVKCdgXdmNg/profile-displayphoto-shrink_800_800/B56ZS4pRcPGUAc-/0/1738264615891?e=1764201600&v=beta&t=2hizGDijVeYI1pnv8dgNGmDPhATYQwghTSUSDbS-EFI',
+      skills: ['React', 'Node.js', 'TypeScript', 'MongoDB', 'GraphQL', 'Azure'],
       social: {
-        github: 'https://github.com',
-        linkedin: 'https://linkedin.com',
-        email: 'john@axlesolutions.com',
+        github: 'https://github.com/AnushkaPraveen',
+        linkedin: 'https://www.linkedin.com/in/anushka-praveen/',
+        email: 'anushkapraveen98@gmail.com',
       },
     },
     {
-      name: 'Sarah Johnson',
-      role: 'Co-Founder & Software Architect',
-      bio: 'Sarah brings 10 years of full-stack development experience, with expertise in building scalable applications. She excels in React, Node.js, microservices architecture, and cloud-native development.',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
-      skills: ['React', 'Node.js', 'TypeScript', 'MongoDB', 'GraphQL', 'Azure'],
+      name: 'Pasidu Chamod',
+      role: 'Co-Founder & DevOps Engineer',
+      bio: 'Pasidu is an aspiring DevOps engineer passionate about cloud technologies, automation, and modern software delivery. Currently pursuing a Computer Science degree at the University of Jaffna, he’s gaining hands-on experience with Docker, Kubernetes, GitHub Actions, and CI/CD workflows to build scalable and reliable infrastructure solutions.',
+      image: 'https://media.licdn.com/dms/image/v2/D5603AQFcCyVTqw6L9Q/profile-displayphoto-shrink_800_800/B56ZWWSIJ2GQAg-/0/1741983090059?e=1764201600&v=beta&t=4uzMIztIvlwH5G9oYmFw6UH_KwCia_hmwT2RB6mARgA',
+      skills: ['AWS', 'Kubernetes', 'Docker', 'Terraform', 'Jenkins', 'Python'],
       social: {
-        github: 'https://github.com',
-        linkedin: 'https://linkedin.com',
-        email: 'sarah@axlesolutions.com',
+        github: 'https://github.com/Pasiduchamod',
+        linkedin: 'https://www.linkedin.com/in/pasidu-chamod/',
+        email: 'jayaweera.pasindu123@gmail.com',
       },
     },
   ];
