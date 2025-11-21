@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { 
   Server, 
   Code, 
@@ -14,6 +15,7 @@ import {
 
 const Services = () => {
   const [selectedService, setSelectedService] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -231,13 +233,15 @@ const Services = () => {
 
             {/* CTA */}
             <div className="pt-4 border-t border-gray-200 dark:border-dark-700">
-              <a
-                href="/contact"
+              <button
+                onClick={() => {
+                  onClose();
+                  navigate('/contact');
+                }}
                 className="btn-primary w-full text-center block"
-                onClick={onClose}
               >
                 Get Started with This Service
-              </a>
+              </button>
             </div>
           </div>
         </div>
@@ -347,12 +351,12 @@ const Services = () => {
           <p className="text-xl text-primary-50 mb-8">
             Let's discuss how our services can help you achieve your goals.
           </p>
-          <a
-            href="/contact"
+          <button
+            onClick={() => navigate('/contact')}
             className="inline-block px-8 py-4 bg-white text-primary-600 rounded-lg font-semibold hover:bg-primary-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
           >
             Contact Us Today
-          </a>
+          </button>
         </div>
       </section>
 
